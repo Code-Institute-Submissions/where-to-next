@@ -1,11 +1,12 @@
 /* Map */
 
 #map {
+    position: relative;
     height: 400px;
     width: 100%;
 };
 
-/* Footer */
+Footer */
 .container {
   width: auto;
   max-width: 680px;
@@ -13,3 +14,8 @@
   position: fixed;
 }
 
+/* Summary boxes */
+
+.hideme {
+    display: none;
+}
