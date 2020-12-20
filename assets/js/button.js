@@ -44,6 +44,7 @@ $(".cityshow").click(function(event) {
        console.log("marker", markers);
        console.log("selected marker", selectedMarkers);
        $(".infodiv").addClass('hideme');
+       $(".mainpic").addClass('hideme');
        $(showdiv).removeClass('hideme');
        initMap(selectedMarkers, selectedOptions);
     });
