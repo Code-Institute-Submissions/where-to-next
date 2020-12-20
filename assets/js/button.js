@@ -1,41 +1,50 @@
-//    $("#dest1btn").click(function() {
-//         $("#dest1p").toggle();
-//     });
-
-//     $("#dest2btn").click(function () {
-//         $("#dest2p").toggle();
-//     });
-
-//     $("#dest3btn").click(function () {
-//         $("#dest3p").toggle();
-//     });
-
-//     $("#dest4btn").click(function () {
-//         $("#dest4p").toggle();
-//     });
-//     $("#dest5btn").click(function () {
-//         $("#dest5p").toggle();
-//     });
-//     $("#dest6btn").click(function () {
-//         $("#dest6p").toggle();
-//     });
-//     $("#dest7btn").click(function () {
-//         $("#dest7p").toggle();
-//     });
-//     $("#dest8btn").click(function () {
-//         $("#dest8p").toggle();
-//     });
-//     $("#dest9btn").click(function () {
-//         $("#dest9p").toggle();
-//     });
-//     $("#dest10btn").click(function () {
-//         $("#dest10p").toggle();
-//     });
-
-
 $(".cityshow").click(function(event) {
-	   showdiv = '#'+$(event.target).attr('data-link');
-	   $(".infodiv").addClass('hideme');
+       showdiv = '#'+$(event.target).attr('data-link');
+       markers = $(event.target).attr('data-marker-array');
+       if (markers=="colmarMarkers") {
+           selectedMarkers = colmarMarkers;
+           selectedOptions = colmarMarkersOptions;
+       }
+        if (markers=="athensMarkers") {
+           selectedMarkers = athensMarkers;
+           selectedOptions = athensMarkersOptions;
+       }
+        if (markers=="tbilisiMarkers") {
+           selectedMarkers = tbilisiMarkers;
+           selectedOptions = tbilisiMarkersOptions;
+       }
+        if (markers=="viennaMarkers") {
+           selectedMarkers = viennaMarkers;
+           selectedOptions = viennaMarkersOptions;
+       }
+        if (markers=="cascaisMarkers") {
+           selectedMarkers = cascaisMarkers;
+           selectedOptions = cascaisMarkersOptions;
+       }
+        if (markers=="sibiuMarkers") {
+           selectedMarkers = sibiuMarkers;
+           selectedOptions = sibiuMarkersOptions;
+       }
+        if (markers=="namurMarkers") {
+           selectedMarkers = namurMarkers;
+           selectedOptions = namurMarkersOptions;
+       }
+        if (markers=="rijekaMarkers") {
+           selectedMarkers = rijekaMarkers;
+           selectedOptions = rijekaMarkersOptions;
+       }
+        if (markers=="parisMarkers") {
+           selectedMarkers = parisMarkers;
+           selectedOptions = parisMarkersOptions;
+       }
+        if (markers=="bydgoszczMarkers") {
+           selectedMarkers = bydgoszczMarkers;
+           selectedOptions = bydgoszczMarkersOptions;
+       }
+       console.log("marker", markers);
+       console.log("selected marker", selectedMarkers);
+       $(".infodiv").addClass('hideme');
        $(showdiv).removeClass('hideme');
-       initMap();
+       initMap(selectedMarkers, selectedOptions);
     });
+
