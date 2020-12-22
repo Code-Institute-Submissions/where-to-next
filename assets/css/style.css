@@ -1,32 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
 
 
+/* colours
+--dark-lava: #4a4238ff;
+--shiny-shamrock: #66a182ff;
+--middle-red: #e2856eff;
+--lavender-web: #e5eafaff;
+--cg-blue: #007ea7ff;
+
+*/
+
+
 
 /* body */
 
 .body-style {
-    background-color: palegoldenrod;
+    background-color: #E5EAFA;
 }
 
 /* Main title */
 
 .title-main {
     text-align: center;
-    color: #008a00;
+    color: #007EA7;
     letter-spacing: 3px;
     font-family: 'pompiere', sans-serif;
 }
 
 .subtitle {
     text-align: center;
-    color: #008a00;
+    color: #007EA7;
     letter-spacing: 3px;
     font-family: 'pompiere', sans-serif;
 }
 
 .intruction-text {
     text-align: center;
-    color: #008a00;
+    color: #007EA7;
     letter-spacing: 3px;
     font-family: 'pompiere', sans-serif;
     font-size: 40px;
@@ -74,11 +84,15 @@ Footer */
 
 /* form */
 .form-style {
-    border-color: black;
+    border-color: #4a4238ff;
     border-style: ridge;
     padding: 40px;
     margin-bottom: 50px;
-    background-color: palegreen;
+    background-color: #66a182ff;
+}
+
+.form-textbox-style {
+    background-color: #E5EAFA;
 }
 
 /* Destination divs */
@@ -88,9 +102,7 @@ Footer */
     text-align: center;
 }
 
-/* dest-text-format {
-    text-align: left;
-    vertical-align: middle;
-    height: 100%;
-    font-family: 'pompiere', sans-serif;
-} */ 
+div > p {
+    background-color: #e2856eff;
+    color: #4a4238ff;
+}
