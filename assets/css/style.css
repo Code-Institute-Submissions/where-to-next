@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+
+
+/* body */
+
+.body-style {
+    background-color: palegoldenrod;
+}
+
+/* Main title */
+
+.title-main {
+    text-align: center;
+    color: #008a00;
+    letter-spacing: 3px;
+    font-family: 'pompiere', sans-serif;
+}
+
+.subtitle {
+    text-align: center;
+    color: #008a00;
+    letter-spacing: 3px;
+    font-family: 'pompiere', sans-serif;
+}
+
+.intruction-text {
+    text-align: center;
+    color: #008a00;
+    letter-spacing: 3px;
+    font-family: 'pompiere', sans-serif;
+    font-size: 40px;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Main pic */
+.mainpic {
+    width: 100%;
+}
+
+/* buttons */
+
+.buttons-div {
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
 /* Map */
 
 #map {
@@ -19,3 +71,26 @@ Footer */
 .hideme {
     display: none;
 }
+
+/* form */
+.form-style {
+    border-color: black;
+    border-style: ridge;
+    padding: 40px;
+    margin-bottom: 50px;
+    background-color: palegreen;
+}
+
+/* Destination divs */
+
+.image-format{
+    width: 100%;
+    text-align: center;
+}
+
+/* dest-text-format {
+    text-align: left;
+    vertical-align: middle;
+    height: 100%;
+    font-family: 'pompiere', sans-serif;
+} */ 
