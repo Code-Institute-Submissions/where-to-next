@@ -46,6 +46,7 @@ $(".cityshow").click(function(event) {
        $(".infodiv").addClass('hideme');
        $(".mainpic").addClass('hideme');
        $(showdiv).removeClass('hideme');
+       $(".infomap").removeClass('hideme');
        initMap(selectedMarkers, selectedOptions);
     });
 

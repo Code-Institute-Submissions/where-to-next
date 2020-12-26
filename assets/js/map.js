@@ -130,6 +130,7 @@ const athensMarkers = [{
                 content: '<h3>Péniche d hôtes MS Elisabeth</h3> <p>Within a 7-minute walk from the centre, Péniche d hôtes MS Elisabeth offers rooms decorated with wooden elements and fitted with a private bathroom. Citadelle de Namur is 50 yards away</p> <a href="https://www.booking.com/accommodation/city/be/namur.en-gb.html?aid=373411;label=namur-eyPh_eYwT2HGVg6oHnEeWgS406089779927%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666475%3Akwd-1486720022%3Alp1006965%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Ybz4KBg0DTFCTn0pIbYiAXw;sid=8f5d6c7740e4b688a551571a0ae3738e" target="_blank">View on booking.com</a>',
             }, 
         {
+            // https://www.planetware.com/tourist-attractions-/namur-namen-b-nm-nn.htm
                 coords: { lat: 50.46361, lng: 4.87136 },
                 iconImage: 'http://maps.google.com/mapfiles/kml/shapes/target.png',
                 content: '<h3>Church of Notre Dame and Treasury</h3><p>The ecclesiastical treasury here contains the treasure from the monastery of Oignies, which came into the possession of the convent in 1818. Its finest pieces were the work of the goldsmith Pater Hugo von Oignies who lived in the monastery during the 13th century. There are two magnificent pieces of particular acclaim that you should not miss: the cover of a gospel of 1230 from Trier decorated with enamel work, and the goblet of Gilles de Walcourt of 1238.</p>'

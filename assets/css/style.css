@@ -76,7 +76,7 @@ Footer */
 /* Summary boxes */
 
 .hideme {
-    display: none;
+    display: none !important;
 }
 
 /* form */
