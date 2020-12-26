@@ -98,6 +98,12 @@ html {
     text-align: center;
 }
 
+.dest-text-format {
+    background-color: #66a182ff;
+    color: black;
+    font-size: x-large;
+} 
+
 /* form */
 .form-style {
     border-color: #4a4238ff;
@@ -106,6 +112,8 @@ html {
     margin-bottom: 50px;
     margin-top: 1em;
     background-color: #66a182ff;
+    color: black;
+    font-size: large;
 }
 
 .form-textbox-style {
@@ -121,6 +129,6 @@ html {
     padding: 15px;
 }
 
-div > p {
+/* div > p {
     background-color: #66a182ff;
-}
+} */

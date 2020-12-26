@@ -30,8 +30,5 @@ function validateRequiredInput(input){
                 }
             );
       }
-      else{
-        // alert("Please fill required fields");
-      }
     return false;
 };
