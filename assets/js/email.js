@@ -1,8 +1,12 @@
 function validateRequiredInput(input){
     if (input.value.length < 3){
+        input.style.borderColor = "red";
         return false;
     }
+    else{
+        input.style.borderColor = "white";
     return true;
+}
 }
     function sendMail(contactForm) {
         if (validateRequiredInput(contactForm.name) && validateRequiredInput(contactForm.emailaddress) && validateRequiredInput(contactForm.feedback))
@@ -27,7 +31,7 @@ function validateRequiredInput(input){
             );
       }
       else{
-        alert("Please fill required fields");
+        // alert("Please fill required fields");
       }
     return false;
 };
