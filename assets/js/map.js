@@ -192,7 +192,7 @@ const athensMarkers = [{
             }, ];
 
             const colmarMarkersOptions = {
-                zoom: 13,
+                zoom: 15,
                 center: { lat: 48.0794, lng: 7.3585 }};
 
             const athensMarkersOptions = {
@@ -208,15 +208,15 @@ const athensMarkers = [{
                 center: { lat: 48.2082, lng: 16.3738 }};   
                 
             const cascaisMarkersOptions = {
-                zoom: 13,
-                center: { lat: 38.71733, lng: -9.45156 }};                
+                zoom: 14,
+                center: { lat: 38.700, lng: -9.42407 }};                
 
             const sibiuMarkersOptions = {
                 zoom: 13,
                 center: { lat: 45.7936, lng: 24.1213 }};
 
             const namurMarkersOptions = {
-                zoom: 13,
+                zoom: 14,
                 center: { lat: 50.4674, lng: 4.8720 }};
 
             const rijekaMarkersOptions = {
@@ -224,8 +224,8 @@ const athensMarkers = [{
                 center: { lat: 45.3271, lng: 14.4422 }};
 
              const parisMarkersOptions = {
-                zoom: 13,
-                center: { lat: 48.8566, lng: 2.3522 }};
+                zoom: 11,
+                center: { lat: 48.84378, lng: 2.36885 }};
 
             const bydgoszczMarkersOptions = {
                 zoom: 13,
