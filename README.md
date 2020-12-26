@@ -171,7 +171,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 No. | URL | Copyright | Used for
 --|--|--|--
 1. |https://www.tajtravel.com/blog/wp-content/uploads/2019/07/travel-europe-places.jpg |No Copyright information was availiable | The main image on the page before a destination is selected
-2. |  https://www.europeanbestdestinations.com/european-best-destinations-2020/  | atthieu Cadiou / European Best Destinations | Used for the image for the Calmar section
+2. |  https://www.europeanbestdestinations.com/european-best-destinations-2020/  | Matthieu Cadiou / European Best Destinations | Used for the image for the Calmar section
 3. | https://www.europeanbestdestinations.com/european-best-destinations-2020/ | Anastasios71 | Used for the image for the Athens section
 4. | https://www.europeanbestdestinations.com/european-best-destinations-2020/ | Boris Stroujko | Used for the image for the Georgia section
 5. | https://www.europeanbestdestinations.com/european-best-destinations-2020/ | Christian Stemper / Vienna.info | Used for the image for the Vienna section

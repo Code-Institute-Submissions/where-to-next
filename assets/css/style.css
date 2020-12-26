@@ -24,7 +24,13 @@ html {
 }
 
 /* nav */
+.nav-style {
+    color: #4a4238ff;
+}
 
+.nav-style:hover{
+    color: #66a182ff;
+}
 
 /* Main title */
 
@@ -69,9 +75,10 @@ html {
     height: 400px;
     width: 100%;
     padding: 1em;
+    margin-top: 1em;
 };
 
-Footer */
+/* Footer */ 
 .container {
   width: auto;
   max-width: 680px;
