@@ -1,81 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
 
-
-/* colours
---dark-lava: #4a4238ff;
---shiny-shamrock: #66a182ff;
---middle-red: #e2856eff;
---lavender-web: #e5eafaff;
---cg-blue: #007ea7ff;
-
-*/
-
 html {
   scroll-behavior: smooth;
 }
 
-
 /* body */
-
 .body-style {
     background-color: #E5EAFA;
     font-family: 'pompiere', sans-serif;
     color: #4a4238ff;
 }
-
 /* nav */
 .nav-style {
     color: #4a4238ff;
 }
-
 .nav-style:hover{
     color: #66a182ff;
 }
-
 /* Main title */
-
 .header-style {
     background-color: #66a182ff;
 }
-
 .subtitle {
     text-align: center;
     letter-spacing: 3px;
     padding-top: 1em;
 }
-
 .intruction-text {
     text-align: center;
     letter-spacing: 3px;
     width: 90%;
     padding-bottom: 1em;
     padding-top: 1em;
-    
 }
 
 /* Main pic */
 .mainpic {
     width: 100%;
 }
-
 /* buttons */
-
 .buttons-div {
     width: 100%;
     padding-bottom: 1em;
     text-align: center;
 }
-
 /* Map */
-
 #map {
     position: relative;
     height: 400px;
     width: 100%;
     padding: 1em;
     margin-top: 1em;
-};
-
+}
 /* Footer */ 
 .container {
   width: auto;
@@ -83,7 +59,6 @@ html {
   padding: 0 15px;
   position: fixed;
 }
-
 .footer-colour {
     background-color: #E5EAFA;
 }
@@ -128,7 +103,3 @@ html {
     display: block;
     padding: 15px;
 }
-
-/* div > p {
-    background-color: #66a182ff;
-} */

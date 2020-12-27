@@ -110,6 +110,7 @@ All of the features in the initial scope of the site have been implemented. Howe
 Map Markers | The marker icons selected work well for the page but there are some additional icons which could have been used instead. For example, a church icon where a church has been recommended
 Destination buttons | The destination buttons could be included within a sub section of the nav bar to be more visually appealing
 Contact form | The validation on the contact form currently ensures that each of the required fields have a minimum of three characters. I would like to refine this further with specific validation for each box
+Images | Link to smaller images or store these locally to improve the loading time of the page
 
 # Bugs
 
@@ -136,23 +137,30 @@ When a new destination was selected, this appeared underneath the existing desti
 * https://coolors.co/
 
 # Testing
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
-
+1. Tested website responsiveness using http://www.responsinator.com/
+    1. Results: The website is responsive to all device sizes
+1. Tested the image size to ensure no image is to large and impacting the website loading times. I used the Google Dev Tools - Network
+    1. Results: The site loading time is sub optimal. The total website loading time is 1.54s which can be improved
+    1. This has been added to the improvement table within the features section
+1. Tested the HTML using https://www.freeformatter.com/html-validator.html I would normally use https://validator.w3.org/ but there is currently an error with the server and results are not available
+    1. Results - index.html: Three errors were recorded
+        1. Malformed byte sequence: “e9”. At line 109, column 59
+        1. Malformed byte sequence: “f6”. At line 223, column 98
+        1. Malformed byte sequence: “e8”. At line 449, column 66
+    1. The errors are created by Accent Marks on characters within the text content 
+1. Tested the CSS using http://www.css-validator.org/
+    1. Results - style.css: The validator does not recognise #4a4238ff or #66a182ff as valid color 3 or 6 hexadecimals numbers
+    1. The colours currently work correctly within the browsers however, this is something which will need further investigation
+1. Tested the website on the Google Chrome browser Version 87.0.4280.88 (Official Build) (64-bit)
+    1. Results: The website was responsive and the elements performed in the way they were intended to
+1. Tested the website on the Microsoft Edge browser Version Version 87.0.664.66 (Official build) (64-bit)
+    1. Results: The website was responsive and the elements performed in the way they were intended to
+1. Tested the website on the Firefox browser Version 82.0.3 (64-bit)
+    1. Results: The website was responsive and the elements performed in the way they were intended to
+1. Tested the form validation worked correctly on each of the above browsers
+    1. Results: The form correctly sent when the fields were completed as they should have been and did not when the fields had not been completed
+2. Tested the email was sent correctly using the console log
+    1. Results: The console log confirmed the function had run correctly with: SUCCESS r {status: 200, text: "OK"}. In addition to this, an email was successfully received with the content added to the form
 # Deployment
 1. Create a new repository or access an existing repository
 1. Click the green Gitpod button to launch the project in Gitpod
