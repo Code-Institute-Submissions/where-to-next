@@ -26,13 +26,13 @@ This is a travel blog website which provides a short overview of the site owner'
 
 The site includes a Google Map with markers showing recommended places to visit, eat and stay. 
 
-There is also a feedback section where site users can make recommendations for destinations for the site owner to visit next. They can also recommend places to visit, stay and eat in the destinations already on the site. In addition the form the site user submits will ask for permission for the site owner to contact them for further information and whether they can be credited in the recommendation when it is published on the website.
+There is also a feedback section where site users can make recommendations for destinations for the site owner to visit next. They can also recommend places to visit, stay and eat in the destinations already on the site. In addition, the form the site user submits will ask for permission for the site owner to contact them for further information and whether they can be credited in the recommendation when it is published on the website.
 # UX
 ## Strategy
 ### **Site user's Goals:**
 The users are people who love to travel, want to learn about popular destinations, want to plan their next trip or simply want to read about the site owner's travels
 *  As a new site user, I want to be able to understand the intent of the page
-* As a new site user, I want to undertand easily how to navigate the page and access the facilities provided
+* As a new site user, I want to understand easily how to navigate the page and access the facilities provided
 * As a returning site user, I want to be able to easily reach a section of the site previously viewed without many steps to get there
 * As a site user, I want to view the top 10 travel destinations in Europe
 *  As a site user, I want to have links to the recommended restaurants, places to stay and activities where appropriate
@@ -54,10 +54,10 @@ The users are people who love to travel, want to learn about popular destination
 - Description of each destination
 - Google Map for each destination 
 - Customer markers within the maps of recommended places to stay, eat and things to do
-- clickable markers to provide a short peice of information about the recommendation and links to external sources where appropriate
+- clickable markers to provide a short piece of information about the recommendation and links to external sources where appropriate
 
 ## Structure
-**Interation design:**
+**Interaction design:**
 - User friendly interface
 - Responsive and visible links which change on hover
 - Ability to exit pop ups
@@ -71,12 +71,12 @@ The users are people who love to travel, want to learn about popular destination
 
 ## Skeleton
 
-Please click the below link to view the wireframe mockup of the website in mobile, tablet and desktop sizing
+Please click the below link to view the wireframe mock up of the website in mobile, tablet and desktop sizing
 
 [Where to next wireframe](assets/wireframes/w2n.pdf)
 
 ## Surface
-The intention of the surface design of the website is intended to be 'whimsicle'. 
+The intention of the surface design of the website is intended to be 'whimsical'. 
 * The font family chosen from Google Fonts is 'pompiere'
 * The colour selections are light and airy with the following colours selected for the colour scheme: 
     * dark-lava: #4a4238ff;
@@ -92,7 +92,7 @@ The intention of the surface design of the website is intended to be 'whimsicle'
 
 Feature | Details
 ----------|---------
-Map | The site includes a map which is customised for each location using arrays of lattitudes and longitudes for each destination 
+Map | The site includes a map which is customised for each location using arrays of latitudes and longitudes for each destination 
 Map Markers | For each destination, the map will also provide customised recommendation markers using an array of latitudes and longitudes along with personalised marker icons and content boxes
 Destination buttons | Each button will trigger any current content on the page to be hidden and the content for the selected destination to become visible. In addition to the maps and markers detailed above, this will show an image of the destination along with text detail describing each destination
 Contact form | The contact form enables the site user to submit feedback and recommendations whilst also providing consent to be contacted again and/or to be quoted on the site. The form also includes validation to ensure content is provided within the required fields of the form to ensure value content is sent
@@ -139,18 +139,18 @@ When a new destination was selected, this appeared underneath the existing desti
 1. As a new site user, I want to be able to understand the intent of the page
     1. Upon entering the site, users are automatically greeted with the page title and sub heading
     1. There is a clear call to action to select one of the destination buttons
-1. As a new site user, I want to undertand easily how to navigate the page and access the facilities provided
+1. As a new site user, I want to understand easily how to navigate the page and access the facilities provided
     1. The sub heading of the page clearly shows how to use the page in a short and meaningful sentence
     1. The destination buttons are responsive when hovered over
 
 **Returning site user testing:**
 1. As a returning site user, I want to be able to easily reach a section of the site previously viewed without many steps to get there
-    1. The destination buttons are promenent on the page for the returning user to quickly retutn to where they were previously
+    1. The destination buttons are prominent on the page for the returning user to quickly return to where they were previously
 1. As a site user, I want to view the top 10 travel destinations in Europe
-    1. The top 10 travel destinations are detailed in the buttons which are promenent on the page
+    1. The top 10 travel destinations are detailed in the buttons which are prominent on the page
     1. This user experience can be improved by highlighting that these are the top 10 destinations
 1. As a site user, I want to have links to the recommended restaurants, places to stay and activities where appropriate
-    1. When the destination is selected, a custom map opens up with markers. Within these markers, there is a description of the recommendation. Where it is a food or accomodation recommendation, links are provided to external sources
+    1. When the destination is selected, a custom map opens up with markers. Within these markers, there is a description of the recommendation. Where it is a food or accommodation recommendation, links are provided to external sources
     1. Signage on the page can be improved to direct the site user to click on the markers to obtain the content
 1. As a site user, I want to be able to provide feedback on the site
     1. There is a form at the bottom of the page which is fixed so it is always visible
@@ -195,6 +195,7 @@ As a site owner, I want to ensure the site is visually appealing
 2. Tested the email was sent correctly using the console log
     1. Results: The console log confirmed the function had run correctly with: SUCCESS r {status: 200, text: "OK"}. In addition to this, an email was successfully received with the content added to the form
 # Deployment
+**GitHub Pages**
 1. Create a new repository or access an existing repository
 1. Click the green Gitpod button to launch the project in Gitpod
 1. Create an index.html file
@@ -206,13 +207,18 @@ As a site owner, I want to ensure the site is visually appealing
 1. Click 'Save'
 1. Click the URL created within the Settings - GitHub Pages section
 
-To clone the repository for local deployment: 
+**To clone the repository for local deployment:** 
 1. On the main page of the repository, click the down arrow Code button
 1. Click the download icon under the relevant section to clone with either HTTPS, SSH or GitHub CLI 
-1. In Git Bash, chang ethe current directory to the location you want the directory to be stored
+1. In Git Bash, change the current directory to the location you want the directory to be stored
 1. Type git clone and then paste the URL you copied in step 2
     1. An example for HTTPS: `git clone https://github.com/hollyford/where-to-next.git`
 1. Press enter - that's it, your clone has been completed! 
+
+**To fork the repository:**
+1. Navigate to the main page of the repository you wish to fork
+1. Click the Fork button on the top right hand side of the page
+
 # Credits
 ### Content
 
