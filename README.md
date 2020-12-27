@@ -40,9 +40,6 @@ The users are people who love to travel, want to learn about popular destination
 *  As a site user, I want to be able to provide my own recommendations 
 
 ### **Site owner's goals:**
-*  As a site owner, I want to ensure the site is visually appealing
-*  As a site owner, I want destination information to be easily accessible
-*  As a site owner, I want persinalised recommendations to be visible in an accessible map 
 *  As a site owner, I want to be able to receive value feedback on the site, including recommendations from the site users
 
 ## Scope
@@ -76,7 +73,7 @@ The users are people who love to travel, want to learn about popular destination
 
 Please click the below link to view the wireframe mockup of the website in mobile, tablet and desktop sizing
 
-[Where to next wireframe](..assets/wireframes/w2n.pdf)
+[Where to next wireframe](assets/wireframes/w2n.pdf)
 
 ## Surface
 The intention of the surface design of the website is intended to be 'whimsicle'. 
@@ -137,6 +134,42 @@ When a new destination was selected, this appeared underneath the existing desti
 * https://coolors.co/
 
 # Testing
+
+**New site user testing:**
+1. As a new site user, I want to be able to understand the intent of the page
+    1. Upon entering the site, users are automatically greeted with the page title and sub heading
+    1. There is a clear call to action to select one of the destination buttons
+1. As a new site user, I want to undertand easily how to navigate the page and access the facilities provided
+    1. The sub heading of the page clearly shows how to use the page in a short and meaningful sentence
+    1. The destination buttons are responsive when hovered over
+
+**Returning site user testing:**
+1. As a returning site user, I want to be able to easily reach a section of the site previously viewed without many steps to get there
+    1. The destination buttons are promenent on the page for the returning user to quickly retutn to where they were previously
+1. As a site user, I want to view the top 10 travel destinations in Europe
+    1. The top 10 travel destinations are detailed in the buttons which are promenent on the page
+    1. This user experience can be improved by highlighting that these are the top 10 destinations
+1. As a site user, I want to have links to the recommended restaurants, places to stay and activities where appropriate
+    1. When the destination is selected, a custom map opens up with markers. Within these markers, there is a description of the recommendation. Where it is a food or accomodation recommendation, links are provided to external sources
+    1. Signage on the page can be improved to direct the site user to click on the markers to obtain the content
+1. As a site user, I want to be able to provide feedback on the site
+    1. There is a form at the bottom of the page which is fixed so it is always visible
+    1. There is a link on the header which, when clicked, navigates to the form for the user to complete
+1. As a site user, I want to be able to provide my own recommendations 
+    1. There is a form at the bottom of the page which is fixed so it is always visible
+    1. There is a link on the header which, when clicked, navigates to the form for the user to complete
+
+**Site owner testing:**
+
+As a site owner, I want to ensure the site is visually appealing
+1. As a site owner, I want to be able to receive value feedback on the site, including recommendations from the site users 
+    1. There is a form at the bottom of the page which is fixed so it is always visible
+    1. There is a link on the header which, when clicked, navigates to the form for the user to complete
+    1.
+     The form has validation to ensure that it cannot be submitted without content in the name, email address and feedback fields
+
+**Performance testing:**
+
 1. Tested website responsiveness using http://www.responsinator.com/
     1. Results: The website is responsive to all device sizes
 1. Tested the image size to ensure no image is to large and impacting the website loading times. I used the Google Dev Tools - Network
@@ -174,7 +207,7 @@ When a new destination was selected, this appeared underneath the existing desti
 1. Click the URL created within the Settings - GitHub Pages section
 
 To clone the repository for local deployment: 
-1. On the main page of the repository, click the :arrow_down: Code button
+1. On the main page of the repository, click the down arrow Code button
 1. Click the download icon under the relevant section to clone with either HTTPS, SSH or GitHub CLI 
 1. In Git Bash, chang ethe current directory to the location you want the directory to be stored
 1. Type git clone and then paste the URL you copied in step 2

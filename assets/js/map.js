@@ -272,33 +272,3 @@ const athensMarkers = [{
             }
         }
 
-
-// Colmar, france: lat: 48.0794 lng: 7.3585
-
-// Athens, Greece: lat:37.9838  lng: 23.7275
-
-// Tbilisi, Georgia: lat: 41.7151  lng: 44.8271
-
-// Vienna, Austria: lat:48.2082  lng:16.3738
-
-// Cascais, Portugal: lat:38.6971   lng: 9.4223
-
-// Sibiu, Romania: lat:45.7936  lng:24.1213
-
-// Namur, Belgium: lat:50.4674  lng: 4.8720
-
-// Rijeka, Croatia: lat:45.3271  lng: 14.4422
-
-// Paris, France: lat:48.8566  lng:2.3522
-
-// Bydgoszcz, Poland: lat:53.1235  lng: 18.0084
-
-// markers:
-
-// food: icon40 - http://maps.google.com/mapfiles/kml/shapes/dining.png
-// Christmas tree: icon12 - http://maps.google.com/mapfiles/kml/pal2/icon12.png
-// bed: icon28 - http://maps.google.com/mapfiles/kml/shapes/lodging.png
-// drink/alcohol: icon27 - http://maps.google.com/mapfiles/kml/pal2/icon27.png
-// drink/coffee: icon62 - http://maps.google.com/mapfiles/kml/pal2/icon62.png
-// church: icon11 - http://maps.google.com/mapfiles/kml/pal2/icon11.png
-// flag: icon13 -  http://maps.google.com/mapfiles/kml/shapes/target.png
