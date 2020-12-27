@@ -98,6 +98,7 @@ html {
     background-color: #66a182ff;
     color: black;
     font-size: large;
+    max-width: 80%;
 }
 
 .form-textbox-style {
